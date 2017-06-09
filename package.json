@@ -1,0 +1,19 @@
+{
+  "name": "find-my-colleagues",
+  "version": "1.0.0",
+  "description": "Allows to find out where colleagues are right now.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/wtimme/find-my-colleagues.git"
+  },
+  "author": "wtimme <wtimme@users.noreply.github.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wtimme/find-my-colleagues/issues"
+  },
+  "homepage": "https://github.com/wtimme/find-my-colleagues#readme"
+}

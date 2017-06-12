@@ -123,15 +123,16 @@ function determineLocation(auth, emailAddress, date = new Date()) {
         });
 
         if (eventCurrentlyGoingOn) {
-            console.info("❌  Not available right now.");
-            console.log("  Location: %s", eventCurrentlyGoingOn.location);
+            console.info("❌  Not available");
+            var location = eventCurrentlyGoingOn.location || "(not specified)";
             console.log("  Summary: %s", eventCurrentlyGoingOn.summary);
+            console.log("  Location: %s", location);
         } else if (upcomingEvent) {
             var startDate = new Date(upcomingEvent.start.dateTime || upcomingEvent.start.date);
 
             console.log("⏳  Will attend '%s' at %s", upcomingEvent.summary, startDate);
         } else {
-            console.log("✅  They are available right now.");
+            console.log("✅  They are available");
         }
     });
 }

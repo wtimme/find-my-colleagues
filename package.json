@@ -18,6 +18,7 @@
   "homepage": "https://github.com/wtimme/find-my-colleagues#readme",
   "dependencies": {
     "google-auth-library": "^0.10.0",
-    "googleapis": "^19.0.0"
+    "googleapis": "^19.0.0",
+    "slack": "^8.3.1"
   }
 }
